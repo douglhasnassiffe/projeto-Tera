@@ -10,7 +10,7 @@ const options = {
 
 fetch(url, options)
 .then(response => {
-    response.json()
+    response.json() 
     .then(dados => {
         console.log(dados);
         const usuarios = dados.data;
