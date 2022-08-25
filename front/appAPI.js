@@ -8,7 +8,7 @@ const options = {
     cache: 'default'
 }
 
-fetch(url, options)
+fetch(url, options)  
 .then(response => {
     response.json() 
     .then(dados => {
