@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/explore-style.css">
+    <title>Explorar - CoMusic.</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="menu-bar col-md-8">
+                <ul>
+                    <li><a href="feed.html">Início</a></li>
+                    <li><a href="profile.html">Perfil</a></li>
+                    <li><a href="explore.html">Explorar</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="page-content">
+        <div class="container col-sm-12 col-md-12 col-lg-8 d-md-flex justify-content-between">
+            <aside class="container col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div id="explore-aside">
+                    <ul id="categoryList">
+                        <li class="checked">Tudo</li>
+                        <li class="unchecked">Pessoas</li>
+                        <li class="unchecked">Música</li>
+                        <li class="unchecked">Mídia</li>
+                        <li class="unchecked">Eventos</li>
+                        <li class="unchecked">Chamados</li>
+                        <li class="unchecked">Localização</li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="container col-sm-12 col-md-8 col-lg-9 col-xl-8">
+
+                <main>
+                    <div id="search-content">
+                        <section class="explore-section" id="explore-tool">
+                            <h1>Conecte-se com a comunidade musical</h1>
+                            <div id="search-tool">
+                                <input type="text" id="search-input" placeholder="Digite aqui">
+                                <input type="submit" id="search-button" value="Explorar" onclick="explore()">
+                            </div>
+                            <div id="search-time">
+                                <ul id="timeList">
+                                    <li class="unchecked">Hoje</li>
+                                    <li class="unchecked">Úlitmos 7 dias</li>
+                                    <li class="unchecked">Últimos 30 dias</li>
+                                    <li class="checked">Todo tempo</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Criado por Douglhas Nassiffe, Sarah Araújo
+            <br>Todos os direitos reservados - 2022
+        </p>
+    </footer>
+    <script src="app/exploreApp.js"></script>
+    
+    <script src="app/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>

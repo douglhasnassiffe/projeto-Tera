@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/login-style.css">
+    <title>CoMusic.</title>
+</head>
+
+<body>
+    <script src="app/loginApp.js"></script>
+    <header>
+        <nav>
+         <!---   <div class="logo-bar"></div>-->
+            <div class="menu-bar">
+                
+                <ul>
+                    <li><input type="text" class="login-input" id="login" placeholder="Login"></li>
+                    <li><input type="password" class="login-input" id="password" placeholder="Senha"></li>
+                    <li><input type="submit" id="login-button" value="Entrar" onclick="loginVerification()"></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div id="page-content">
+
+        <aside>
+            <div class="description">
+                <h1>CoMusic.</h1>
+                <h1>MAIOR REDE DE MÚSICA E ARTISTAS MUSICAIS</h1>
+                <h3>Faça parte você também!</h3>
+            </div>
+        </aside>
+        <main>
+            <section class="signup-section" >
+            <form id="formSignup" action="#" method="post">
+                <h1>Cadastre-se!</h1>
+                <label>Nome</label>
+                <input type="text" id="sName" class="signup-input">
+                <br>
+                <label>Sobrenome</label>
+                <input type="text" id="sSurName" class="signup-input">
+                <br>
+                <Label>Email</Label>
+                <input type="email" class="signup-input" id="sEmail">
+                <br>
+                <label>Data de Nasc.</label>
+                <input type="date" class="signup-input" id="sDate">
+                <br>
+                <div class="btnForm">
+                    <button type="submit" id="signup-button" onclick="showForm()">Cadastrar</button>
+                </div>
+            </form>
+            </section>
+
+        </main>
+    </div>
+    <footer>
+        <p>Criado por  Douglhas Nassiffe, Sarah Araújo
+            <br>Todos os direitos reservados - 2022
+        </p>
+    </footer>
+</body>
+
+</html>

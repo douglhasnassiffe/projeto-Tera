@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/feed-style.css">
+    <title>Feed - CoMusic.</title>
+</head>
+
+<body>
+    <script src="app/feedApp.js"></script>
+    <script src="app/bootstrap/bootstrap.min.js"></script>
+    <header>
+        <nav>
+            <div class="menu-bar col-md-8">
+                <ul>
+                    <li><a href="feed.html">Início</a></li>
+                    <li><a href="profile.html">Perfil</a></li>
+                    <li><a href="explore.html">Explorar</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="container col-sm-12 col-md-12 col-lg-8 d-md-flex justify-content-between">
+        <aside class="aside-esquerda container col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div id="profile-pic">
+                <img src="images/avatar.png" alt="Foto do perfil">
+            </div>
+            <div class="profile-aside" id="user-profile">
+                <h3>Beyoncé Knowles</h3>
+                <ul>
+                    <li>Cantora, compositora</li>
+                    <li>Houston, TX</li>
+                    <li>Inglês, Espanhol</li>
+                </ul>
+            </div>
+            <div class="profile-aside">
+                <h3>Meus Grupos</h3>
+                <ul>
+                    <li>Roles New York</li>
+                    <li>All the single ladies</li>
+                    <li>Eu, Gaga e Friends</li>
+                    <li>Ideias e Inspirações</li>
+                    <li>Eu e Jay-Z</li>
+                    <li>Produtores e Oportunidades</li>
+                    <li>Adoradores da Beyoucé</li>
+                </ul>
+            </div>
+            <div class="profile-aside">
+                <h3>Últimas Atividades</h3>
+                <ul>
+                    <li>Curtida - Lady Gaga</li>
+                    <li>Comentário - Lady Gaga</li>
+                    <li>Publicação</li>
+                    <li>Comentário - Jay-Z</li>
+                    <li>Comentário - Jay-Z</li>
+                    <li>Publicação</li>
+                </ul>
+            </div>
+        </aside>
+        <div class="container col-sm-12 col-md-8 col-lg-9 col-xl-8">
+            <main>
+                <div id="container post-section">
+                    <section class="profile-section">
+                        <div class="feed-publicacao">
+                            <img src="images/avatar.png" alt="Foto de Perfil" class="foto-perfil-feed">
+                            <input type="text" placeholder="Escrever Publicação" class="input-feed" id="post-text">
+                            <input type="button" value="Postar" class="post-button" onclick="addPost()">
+                        </div>
+                        <div class="feed-publicacao-icones">
+                            <a href="">
+                                <img src="images/CameraFeed.png" alt="Inserir Foto">
+                                Foto</a>
+                            <a href="">
+                                <img src="images/Musica.png" alt="Inserir Story">
+                                Música</a>
+                            <a href="">
+                                <img src="images/VideoFeed.png" alt="Inserir Vídeo">
+                                Vídeo</a>
+                            <a href="">
+                                <img src="images/CalendarioFeed.png" alt="Publicar Evento">
+                                Evento
+                                <a href="">
+                                    <img src="images/Chamado.png" alt="Chamados">
+                                    Chamado</a>
+                        </div>
+                    </section>
+                </div>
+                <div id="container feed-section">
+                    <section class="profile-section">
+                        <div class="feed-publicacao-profile">
+                            <img src="images/FotoPerfilGaga.png" alt="Foto de Perfil Lady Gaga"
+                                class="foto-perfil-feed">
+                            <div>
+                                <h4>Lady Gaga</h4>
+                                <ul>
+                                    <li>Cantora, Compositora, Atriz</li>
+                                    <li>Nova York, EUA</li>
+                                    <li>3d</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div>
+                            <p> Showzinho Maravilhoso com Metallica</p>
+                            <p> #ThrashMetal #Metallica</p>
+                        </div>
+                        <div>
+                            <img src="images/Metallica e Lady Gaga.jpg" alt="Show metallica e Lady Gaga"
+                                class="fotos-post-feed">
+                        </div>
+                        <div class="feed-interacao-publicacao">
+                            <p>97 curtidas</p>
+                            <p>12 comentários</p>
+                        </div>
+                        <hr>
+                        <div class="feed-interacao">
+                            <a href="">
+                                <img src="images/Curtir.png" alt="Curtir">
+                                Curtir</a>
+                            <a href="">
+                                <img src="images/Comentar.png" alt="Comentar">
+                                Comentar</a>
+                            <a href="">
+                                <img src="images/Compartilhar.png" alt="Compartilhar">
+                                Compartilhar</a>
+                            <a href="">
+                                <img src="images/Megafone.png" alt="Denunciar">
+                                Denunciar</a>
+                        </div>
+                        <div class="feed-publicacao">
+                            <img src="images/avatar.png" alt="Foto de Perfil" class="foto-perfil-feed">
+                            <input type="text" placeholder="Adicionar Comentário" class="input-feed">
+                            <input type="button" value="Postar" class="post-button">
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Criado por Douglhas Nassiffe, Sarah Araújo
+            <br>Todos os direitos reservados - 2022
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(126, 126, 126); 
+    color: rgb(253, 253, 253);
+}
+
+
+
+/* ESTILIZAÇÃO HEADER*/
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(194, 194, 235, 0.8);
+    z-index: 4;
+    height: 50px;
+    position: fixed;
+    top: 0;
+
+}
+
+.menu-bar {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-bar {
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    height: 40px;
+    width: 100px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.menu-bar ul {
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.menu-bar li {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-input {
+
+    padding: 0 10px;
+    margin: 0 5px;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 235);
+}
+
+.login-input:focus {
+    outline: 2px solid rgb(240, 240, 250);
+    box-shadow: 0 0 1em rgb(129, 54, 226);
+}
+
+#login-button {
+
+    margin: 0 5px;
+    padding: 0 10px;
+    background-color: rgb(240, 240, 250);
+    border-radius: 10px;
+    height: 35px;
+    border: 1px solid rgb(194, 194, 235);
+    color: rgb(129, 54, 226);
+
+}
+
+#login-button:hover {
+
+    background-color: rgb(253, 253, 253);
+    color: rgb(129, 54, 226);
+    box-shadow: 0 0 1em rgb(129, 54, 226);
+}
+
+#page-content {
+
+    display: flex;
+    width: 100%;
+    min-height: 650px;
+    height: max-content;
+    background-image: url('../images/pagecover.jpg');
+    justify-content: space-between;
+
+}
+
+/*ESTILIZAÇÃO SEÇÃO CADASTRO*/
+
+aside {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-basis: 80%;
+    min-width: 500px;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin: 10px 20px;
+    flex-basis: 30%;
+    min-width: 460px;
+}
+
+.description {
+    color: white;
+    padding: 0 50px 0 100px;
+}
+
+.signup-section {
+    color: rgb(129, 54, 226);
+    border-radius: 25px;
+    box-shadow: 0 0 1.5em rgb(112, 21, 143);
+    background-color: rgba(253, 253, 253, 0.6);
+    padding: 20px;
+    margin: 60px 10px 10px;
+    margin-right: 0;
+}
+
+.signup-input {
+    opacity: 0.7;
+    padding: 0 10px;
+    margin: 5px 10px;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 235);
+
+}
+
+.signup-section h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#signup-button {
+    margin: 0 10px;
+    opacity: 0.8;
+    padding: 0 10px;
+    background-color: rgb(240, 240, 250);
+    border-radius: 10px;
+    height: 35px;
+    border: 1px solid rgb(194, 194, 235);
+    color: rgb(129, 54, 226);
+}
+
+#signup-button:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(129, 54, 226);
+    box-shadow: 0 0 1em rgb(129, 54, 226);
+}
+
+.signup-textarea {
+    opacity: 0.7;
+    padding: 0 10px;
+    margin: 5px 10px;
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 235);
+
+}
+
+.btnForm {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer {
+    box-sizing: border-box;
+    height: 75px;
+    padding: 10px;
+    background-color: rgb(194, 194, 235, 0.8);
+    width: 100%;
+    font-size: medium;
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+/*Modificadores*/
+
+.signup-input:focus,
+.signup-textarea:focus {
+    outline: 2px solid rgb(194, 194, 235);
+    box-shadow: 0 0 1em rgb(129, 54, 226);
+}
+
+.empty {
+    opacity: 0.8;
+    background-color: rgba(242, 181, 181);
+}
+
+.notEmpty {
+    opacity: 0.7;
+    background-color: white;
+}

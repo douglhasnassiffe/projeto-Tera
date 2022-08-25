@@ -1,0 +1,27 @@
+Página de perfil:
+EXIBIR:
+Imagem de capa: adicionar, apagar, alterar
+Foto de perfil: adicionar, apagar, editar
+Dados principais (Nome, sobrenome, e-mail, nascimento, gênero, localidade, profissão, idioma): adicionar, editar
+Mini bio: adicionar, apagar, editar
+Fotos e vídeos: adicionar, apagar, galeria
+Músicas: incorporar (Spotify, deezer, SoundCloud, YouTube), apagar, editar
+Seções adicionais (Prêmios, formação acadêmica, experiência profissional): adicionar, apagar, editar
+
+Cadastro:
+FORMULÁRIO
+Imagem de capa
+Foto do perfil
+Dados principais (Nome, sobrenome, e-mail, nascimento, gênero, localidade, profissão, idioma)
+
+Página de feed:
+EXIBIR
+Foto de perfil: exibir
+Postagem: Postar texto, postar foto, apagar, editar (tipo do post: divulgação, vaga, curso, venda de instrumento)
+Feed: exibição dos posts dos amigos (opções de curtir, comentar, compartilhar) (tirar do escopo: denunciar, bloquear)
+Minhas atividades: exibição dos próprios posts (precisa de uma página para mostrar a própria atividade, igual a do feed)
+
+Pagina Explorar (diminui o escopo da proposta inicial de ser um mural de vagas)
+Exibir resultados de pesquisa: filtros (nome, localidade, tipo do post, profissão do artista)
+
+Incluir a opção de chat/mensagem privada entre usuários
