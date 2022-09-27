@@ -95,11 +95,11 @@ nav {
 
     margin: 0 5px;
     padding: 0 10px;
-    background-color: rgb(240, 240, 250);
+    background-color:rgb(129, 54, 226);
     border-radius: 10px;
     height: 35px;
     border: 1px solid rgb(194, 194, 235);
-    color: rgb(129, 54, 226);
+    color: rgb(253, 253, 255);
 
 }
 
@@ -145,10 +145,11 @@ main {
 .description {
     color: white;
     padding: 0 50px 0 100px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
 }
 
 .signup-section {
-    color: rgb(129, 54, 226);
+    color: rgb(129, 54, 226); text-shadow: 0.1em 0.1em 0.2em rgb(161, 193, 235);
     border-radius: 25px;
     box-shadow: 0 0 1.5em rgb(112, 21, 143);
     background-color: rgba(253, 253, 253, 0.6);
@@ -177,11 +178,11 @@ main {
     margin: 0 10px;
     opacity: 0.8;
     padding: 0 10px;
-    background-color: rgb(240, 240, 250);
+    background-color: rgb(129, 54, 226);
     border-radius: 10px;
     height: 35px;
     border: 1px solid rgb(194, 194, 235);
-    color: rgb(129, 54, 226);
+    color: rgb(240, 240, 250);
 }
 
 #signup-button:hover {
@@ -215,7 +216,7 @@ footer {
     background-color: rgb(194, 194, 235, 0.8);
     width: 100%;
     font-size: medium;
-    color: rgb(253, 253, 253);
+    color: rgb(253, 253, 253); text-shadow: black 0.1em 0.1em 0.2em;
     text-align: center;
 }
 
