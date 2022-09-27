@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: rgb(194, 194, 235, 0.8);
+    background: linear-gradient(rgb(194, 194, 235, 0.8) 50%, rgb(174 164 199));
     z-index: 4;
     height: 50px;
     position: fixed;
@@ -95,7 +95,7 @@ nav {
 
     margin: 0 5px;
     padding: 0 10px;
-    background-color:rgb(129, 54, 226);
+    background-color: rgb(150 88 229);
     border-radius: 10px;
     height: 35px;
     border: 1px solid rgb(194, 194, 235);
@@ -116,7 +116,7 @@ nav {
     width: 100%;
     min-height: 650px;
     height: max-content;
-    background-image: url('../images/pagecover.jpg');
+    background-image: url('../images/pagecover.png');
     justify-content: space-between;
 
 }
@@ -145,7 +145,7 @@ main {
 .description {
     color: white;
     padding: 0 50px 0 100px;
-    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+    text-shadow: 0 0 0.1em black, 0 0 0.1em rgb(112, 21, 143), 0 0 0.1em black;
 }
 
 .signup-section {
@@ -213,11 +213,12 @@ footer {
     box-sizing: border-box;
     height: 75px;
     padding: 10px;
-    background-color: rgb(194, 194, 235, 0.8);
+    background:linear-gradient(rgb(44 19 74), rgb(194, 194, 235, 0.8) 55%,rgb(126 126 126));
     width: 100%;
     font-size: medium;
     color: rgb(253, 253, 253); text-shadow: black 0.1em 0.1em 0.2em;
     text-align: center;
+    
 }
 
 /*Modificadores*/
