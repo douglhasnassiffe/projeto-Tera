@@ -8,7 +8,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color:rgb(126, 126, 126); 
+    background: linear-gradient(50deg, white, plum );
     color: rgb(253, 253, 253);
 }
 
@@ -28,7 +28,7 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: rgb(85, 85, 85);
+    background: linear-gradient(45deg, #022380, rgb(115 80 183) );
     z-index: 4;
     height: 50px;
     position: fixed;
@@ -103,10 +103,11 @@ aside {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(13 10 62);
     box-shadow: 0 0 0.5em rgb(194, 194, 235);
     margin: 0;
     border-radius: 10px;
+    margin-top: 50px;
     padding: 10px;
 }
 
@@ -150,10 +151,10 @@ main {
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 0.5em rgb(194, 194, 235);
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(13 10 62);
     padding: 10px;
     margin: 10px;
-    margin-top: 0;
+    margin-top: 50px;
 }
 
 #explore-tool h1{
@@ -184,7 +185,7 @@ main {
     display: flex;
     justify-content: center;
     border: 0;
-    background-color: rgb(126, 126, 126); 
+    background-color: rgb(84 90 137);
     color: white;
     
 }
@@ -276,9 +277,10 @@ footer {
     box-sizing: border-box;
     height: 75px;
     padding: 10px;
-    background-color:rgb(126, 126, 126); 
+    background: linear-gradient(45deg, black, rgb(53 94 222) );
     width: 100%;
     font-size: medium;
     color: rgb(253, 253, 253);
     text-align: center;
+    margin-top: 204px;
 }

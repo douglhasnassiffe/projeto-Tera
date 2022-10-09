@@ -8,9 +8,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(170 115 226); 
+    background: linear-gradient(50deg, white, plum );
     color: rgb(253, 253, 253);
-    
 }
 
 /* ESTILIZAÇÃO HEADER*/

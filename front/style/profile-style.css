@@ -8,7 +8,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color:rgb(126, 126, 126); 
+    background: linear-gradient(50deg, white, plum );
     color: rgb(253, 253, 253);
 }
 
@@ -29,7 +29,7 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: rgb(85, 85, 85);
+    background: linear-gradient(45deg, #022380, rgb(115 80 183) );
     z-index: 4;
     height: 50px;
     position: fixed;
@@ -160,7 +160,7 @@ aside {
 
 .profile-aside {
     
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(52, 43, 212);
     box-shadow: 0 0 0.5em rgb(194, 194, 235);
     margin: 10px;
     margin-left: 0;
@@ -213,7 +213,7 @@ main {
 .profile-section {
     border-radius: 10px;
     box-shadow: 0 0 0.5em rgb(194, 194, 235);
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(52, 43, 212);
     padding: 10px;
     margin: 10px;
     margin-right: 0;
@@ -277,7 +277,7 @@ main {
 
 footer {
     height: 80px;
-    background-color: rgb(85, 85, 85);
+    background: linear-gradient(45deg, black, rgb(53 94 222) );
     width: 100%;
     font-size: medium;
     color: rgb(253, 253, 253);
