@@ -117,7 +117,7 @@ function loginVerification() {
     const url = "http://localhost:3000/auth"
 
 
-    fetch(`${url}/login`, {
+   /* fetch(`${url}/login`, {
         method: "POST",
         body: JSON.stringify(loginData),
         headers: {
@@ -131,7 +131,8 @@ function loginVerification() {
         })
         .catch((e) => {
             return console.error(e)
-        })
+        })*/
+        window.location = "profile.html"
 }
 
 function accessData() {
