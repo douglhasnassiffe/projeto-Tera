@@ -4,11 +4,11 @@ from xmlrpc.client import DateTime
 from flask import Flask, render_template
 from flask import request
 from database import cursor, connection
-from flask_cors import CORS
+#from flask_cors import CORS
 import datetime
 
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 
 
 #CRUD BÁSICO DO USUÁRIO

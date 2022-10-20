@@ -8,7 +8,7 @@ nome_art
 profissao
 bio
 email
-password
+senha
 
 CREATE TABLE users_profile
 users_profile_id
