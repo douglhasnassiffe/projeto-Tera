@@ -1,0 +1,31 @@
+CREATE TABLE users
+users_id
+nome
+s_nome
+nasc
+cidade
+nome_art
+profissao
+bio
+email
+password
+
+CREATE TABLE users_profile
+users_profile_id
+users_id
+profile_type
+profile_info
+
+CREATE TABLE users_posts
+posts_id
+users_id
+post_date
+post_text
+post_type
+
+CREATE TABLE connections
+connections_id
+users_id
+friend_id
+connection_date
+
